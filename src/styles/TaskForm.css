@@ -1,0 +1,51 @@
+.form {
+  display: flex;
+  max-width: 400px;
+  background-color: #3e3b3c;
+  padding: 12px;
+  margin: auto;
+  margin-bottom: 12px;
+  margin-top: 24px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px #1b0307;
+  min-width: 140px;
+}
+
+.entrada {
+  border: none;
+  text-decoration: none;
+  width: 98%;
+  padding: 4px;
+  color: #c51333;
+  background-color: #1b0307;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px #1b0307;
+  outline: none;
+}
+
+.tarea {
+  margin-bottom: 8px;
+  
+}
+
+.descripcion {
+  resize: none;
+  height: 80px;
+}
+
+.enviar {
+  background-color: #c51333;
+  font-weight: bold;
+  color: #3b060f;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px #1b0307;
+  text-shadow: 0px 0px 1px #000;
+  padding: 0 4px;
+}
+
+.enviar:active {
+  background-color: #3b060f;
+  color: #c51333;
+}

@@ -1,0 +1,40 @@
+.card {
+  font-family: sans-serif;
+  max-width: 400px;
+  height: 140px;
+  background: linear-gradient(to bottom, #9e0f29, #c51333);
+  border-radius: 8px;
+  border: 2px solid #000;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 8px;
+  margin: 8px;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  padding: 8px;
+  color: #27040a;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.8rem;
+  padding: 0 8px;
+  color: #140205;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  background-color: #140205;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  font-size: 8px;
+  text-align: center;
+  color: #c51333;
+  margin: 2px;
+  padding: 3px;
+}
